@@ -32,6 +32,19 @@ int main() { // Função principal do programa
     } while (r < 8); // Enquanto r for menor que 8 ele continua o loop
     printf("\n"); // Linha em branco para separar as seções
 
+    // Mover Cavalo em L (2 para baixo, 1 para esquerda)
+    // Usando loop while para Cavalo e for para o movimento em L 
+    printf("=========== Cavalo ===========\n"); // Imprime o título da seção
+    int movimento = 1; // Variavel c de Cavalo
+    while(movimento > 0) { // Loop para simular o movimento do cavalo
+        for (int c = 1; c <= 2; c++) { // Loop para mover 2 casas para baixo
+            printf("Mover cavalo para baixo\n"); // Ação de mover o cavalo para baixo
+        }
+        printf("Mover cavalo para a esquerda\n"); // Ação de mover o cavalo para a esquerda
+        movimento--; // Decrementa o movimento
+    }
+    printf("\n"); // Linha em branco para separar as seções
+
     return 0; // Indica que o programa terminou com sucesso
     
 }
