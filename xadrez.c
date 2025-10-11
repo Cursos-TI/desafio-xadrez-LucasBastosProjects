@@ -12,7 +12,7 @@ int main() { // Função principal do programa
     }
     printf("\n"); // Linha em branco para separar as seções
 
-    // Mover bispo 3 casas na diagonal
+    // Mover bispo 5 casas na diagonal
     // Usando loop while para Bispo
     printf("=========== Bispo ===========\n"); // Imprime o título da seção
     int b = 0; // Variavel b de Bispo com valor inicial 0
